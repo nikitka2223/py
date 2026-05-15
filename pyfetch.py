@@ -20,7 +20,7 @@ def run(parent, args, terminal):
         info = [
             f"{user}@{host}",
             "--------------------------",
-            f"OS:      Void Linux",
+            f"OS:      {platform.system()}",
             f"Kernel:  {platform.release()}",
             f"Uptime:  {uptime}",
             f"Shell:   PyOS 4.5.1",
