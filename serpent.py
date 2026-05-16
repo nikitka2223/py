@@ -7,7 +7,7 @@ def run(parent, args, terminal):
     
     if not args:
         terminal.insert("end", f"{NAME}\n" + "="*30 + "\n")
-        terminal.insert("end", "Usage:\n web <url>\n web -s <query>\n web -save <url> <file>\n")
+        terminal.insert("end", "Usage:\n serpent <url>\n serpent -s <query>\n serpent -save <url> <file>\n")
         return
 
     cmd = args[0]
